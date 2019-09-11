@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+  <main class="main">
+    <form class="form_translate">
+      <div class="form_translate__title">Translate with YandexAPI</div>
+      <div class="input-text">
+        <div class="input-text__title">
+          <div class="input-text__title__text">Text for translation:</div>
+          <div class="input-text__title__select-language">
+            <div class="input-text__title__select-language-text">Selected language:</div>
+            <div class="input-text__title__select-language-click-area"></div>
+            <div class="input-text__title__select-language-list input-text__title__select-language-list--hide"></div>
+          </div>
+        </div>
+        <textarea class="input-text__textarea" placeholder="Type text here (two letters at least)" autocapitalize="off" autocomplete="off" spellcheck="false" lang="ru" rows="1" ></textarea>
+      </div>
+      <div class="form_translate__buttons">
+        <button class="form_translate__send-button" type="button">Translate</button>
+        <button class="form_translate__reset-button" type="button">Reset</button>
+      </div>
+    </form>
+  </main>
+  <script src="dist/main.js"></script>
+</body>
+</html>
